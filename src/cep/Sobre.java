@@ -86,7 +86,7 @@ public class Sobre extends JDialog {
 		JButton btnGithub = new JButton("");
 		btnGithub.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				link("");
+				link("https://github.com/luan-lopes-javadev/BuscarCep.git");
 			}
 		});
 		btnGithub.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
